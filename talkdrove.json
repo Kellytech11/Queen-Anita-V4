@@ -8,13 +8,13 @@
   
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here.",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"UJKdEDcQk236HXa2l3ai4d8Tht/PjCHuLYVjB+GepWg="},"public":{"type":"Buffer","data":"DePv509YbCmsMUvNcn7pwvP/EDxxn79h4pf0doluQjg="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"mOmVuaDNjzTrWqUBtn7q+iZEYxmGGZ6iFp8zrNfNtEk="},"public":{"type":"Buffer","data":"tEEkc74ndssOXwBfjPxlTzvg9ZgENEQPfYZnnk9a5Rg="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"EF1ulXwkJWQc8Qbd3dC6ZOoiaJc0PZnQzWPtAGaeW3w="},"public":{"type":"Buffer","data":"LXCFNGyB6o3ujGB1F30Q8o6ZCqiwdwRiUHspg8HZIH0="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"QO99p/9gzboOFGbbaQ0qUga+bb3XjF+5tCu1kKkUFHg="},"public":{"type":"Buffer","data":"hfVPXOqYnNmPFjFmjE2305bpv8RrbksSWbHHkC1iH1k="}},"signature":{"type":"Buffer","data":"gQb8yUCGSER/zyg0ID07N/B0qr/m4T+GUtszgRwrw22kpPLygv3sTEBaKco+/6u3Ezs5TQ1+fenZ9fEVfSDdDQ=="},"keyId":1},"registrationId":191,"advSecretKey":"jhd9LtU8V41qYbyGpOORWivBZXIaPXoqL308Nvt8yrs=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"qIdGL9CaRd6B1Nnosdmptw","phoneId":"58147ee8-0fd4-429b-8b42-f6c3ac583919","identityId":{"type":"Buffer","data":"M0Nt6foV2fPndvSMiZd07bCL9EI="},"registered":true,"backupToken":{"type":"Buffer","data":"0Ps92zCXatzQ0oAU2UeKGVIAF1E="},"registration":{},"pairingCode":"7DVF2M2H","me":{"id":"254707078681:49@s.whatsapp.net","name":"10th"},"account":{"details":"CM3kvIoBEP34kb8GGAcgACgA","accountSignatureKey":"8EDqON95tEtLHLJuM8j6JO21dkDAL+QT2CGGqNfcVEA=","accountSignature":"5eJtBlZTp5MQsevHEKLjIwM7gYu3zsEPWUyuFq/uQrgxjinSEAEsepwMjlr7d1pE2+cUt1Wpl+pFl5c/nHmCAw==","deviceSignature":"6cfL3ZVOfr+tw5zja+d1uDxePbbmErBe5WYtIHXWw4zAsUXOYDFFXzc1qSR7xynNFxzMOuTGh3cDgCtDGX+LDQ=="},"signalIdentities":[{"identifier":{"name":"254707078681:49@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BfBA6jjfebRLSxyybjPI+iTttXZAwC/kE9ghhqjX3FRA"}}],"platform":"smba","lastAccountSyncTimestamp":1743027339,"myAppStateKeyId":"AAAAALI5"}",
       "value": "",
       "required": true
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
-      "value": ".",
+      "value": "/",
       "required": true
     },
     "AUTO_REACT": {
